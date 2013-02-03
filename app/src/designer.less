@@ -1,0 +1,78 @@
+.m-designer {
+	float: left;
+	width: 600px;
+	height: 300px;
+	background: red;
+	background: url('http://virtualquilter.files.wordpress.com/2009/02/4-seven-patch-grid.jpg?w=90&h=90');
+	border: 3px solid #666;
+	margin: 20px;	
+}
+
+.m-wrapper {
+	position: relative;
+ 	display:inline-block;
+	
+ 	.m-wrapper-over {
+		border: 1px  #666 dashed;
+		box-sizing: border-box;
+		height: 100%;
+		position: absolute;
+		top: 0;
+		right: 0;
+		left: 0;
+		bottom: 0;
+		
+		&:hover {
+			background: rgba(195, 217, 255, 0.68);
+			cursor: move;
+		}
+	}
+	
+	&.goog-control-selected .m-wrapper-over {
+		border: 2px solid red;
+	}
+	
+	
+}
+
+
+li.draggable {
+	list-style-type: none;
+	border: 2px solid #333;
+	background: #6BBA70;
+	margin: 3px;
+	padding: 2px;
+	cursor: move;
+	width: 150px;	
+}
+.candrop {
+	background: rgba(107, 186, 112, 0.68);
+	
+}
+	
+	
+.m-components {
+	float: left;
+	width: 200px;
+	height: 300px;
+	background: white;
+	border: 3px solid #666;
+	margin: 20px;
+	
+
+
+			
+}
+
+.m-out {
+	float: left;
+	width: 400px;
+	height: 300px;
+	background: white;
+	border: 3px solid #666;
+	margin: 20px;
+	
+
+
+			
+}

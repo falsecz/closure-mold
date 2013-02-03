@@ -1,0 +1,25 @@
+components:
+	"sbks-lib":
+		source: "http://git.ccl/closure-components.git"
+	"google-closure": 
+		source: "https://github.com/jarib/google-closure-library.git"
+	"jquery": 
+		source: "*"
+		compile: no
+		publishFiles: [
+			"jquery.min.js"
+		]
+	"beer-script":
+		source: "https://github.com/falsecz/beer-script.git#1.4.0"
+		compile: no
+		publishFiles: [
+			"extras/coffee-script.js"
+		]
+	
+
+
+scripts: 
+	"beer-script": 	["extras/coffee-script.js"]
+	"jquery":		["jquery.min.js"]
+
+	
